@@ -94,6 +94,8 @@ If it's from a virtual machine, it is necessary to indicate the exit from any po
 ```
 (env)$ flask run --host=0.0.0.0
 ```
+https://github.com/kjfigueroa/flask-auth-system/assets/68950531/d0fb3c01-12ba-43b7-9ffe-70bf7bc476dc
+
 <br />
 <div align="center">
 Thanks for reading!
