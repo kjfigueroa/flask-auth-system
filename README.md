@@ -1,8 +1,14 @@
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # User authentication using Flask
 
-A simple application that applies the Python web framework (**Flask & Jinja**). The purpose is to experiment with the libraries and facilities available in the tools related to `Python`. An interesting fact is that in the libraries used there is all the necessary instrumentation to develop an application that a few years ago took several weeks of work, and with these , it is possible to deploy this type of applications or modules from any platform that requires it in a matter of hours (or days, as long as all the concepts involved are understood).
+A simple application that applies the **Python web framework** (**Flask & Jinja**). The purpose is to experiment with the libraries and facilities available in the tools related to `Python`. An interesting fact is that in the libraries used there is all the necessary instrumentation to develop an application that a few years ago took several weeks of work, and with these , it is possible to deploy this type of applications or modules from any platform that requires it in a matter of hours (or days, as long as all the concepts involved are understood).
 
-The following are the libraries involved in the requirement.txt on which the python environment was created:
+https://github.com/kjfigueroa/flask-auth-system/assets/68950531/1c0e31ce-e0c3-452f-b741-ffdec226ad97
+
+
+The following are the libraries involved in the `requirement.txt` on which the **Python** environment was created:
 
 
 * [alembic 1.6.5](https://alembic.sqlalchemy.org/en/latest/)
@@ -51,7 +57,7 @@ Docker version 24.0.2, build cb74dfc
 ```
 
 #### How to:
-And, once the project image has been downloaded:
+And, once the project image has been downloaded from [DockerHub](https://hub.docker.com/r/kevinjessid/flask-auth-system/tags):
 ```
 $ docker pull kevinjessid/flask-auth-system:latest
 ```
@@ -88,3 +94,12 @@ If it's from a virtual machine, it is necessary to indicate the exit from any po
 ```
 (env)$ flask run --host=0.0.0.0
 ```
+<br />
+<div align="center">
+Thanks for reading!
+</div>
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/kjfigueroa/
