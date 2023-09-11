@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title%} {{ title }} {% endblock %}
+{% block content%}
+
+<div class="center-screen">
+    <div class="container p-5 my-5 bg-black text-white text-center">
+        {% if current_user.is_authenticated %}
+            <h1 class="title-welcome"><i class='fa fa-fort-awesome'></i></h1>
+            <h1>Welcome {{ current_user.username }} </h1>
+            <h4><a class="badge badge-dark" href="{{url_for('logout')}}">
+                <i class="fa fa-power-off" style="font-size:48px"></i>
+            </a></h4>
+        {% else %}
+        <h1 class="title-welcome"><i class="fa fa-stop-circle fa-spin"></i></h1>
+            <h4><a class="badge badge-dark" href="{{url_for('logout')}}">
+                Start
+            </a></h4>
+        {% endif %}
+    </div>
+</div>
+<div class="footer">
+    <p><a href="https://github.com/kjfigueroa/flask-auth-system.git">@ kevin J Figueroa M</a></p>
+  </div>
+{% endblock %}
